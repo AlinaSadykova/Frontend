@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 970px;
+    height: 1170px;
+    background-image: linear-gradient(to bottom, #38262c, #453239, #533f47, #614c55, #6f5964);
+    margin: 0px auto;
+    
+   }
+   .header{
+    height: 64px;
+    background-color:#F7F7F7;
+    padding-top: 12px;
+    padding-bottom: 12px;}
+
+    #lasth{
+        margin-top: 24px;
+        
+    }
+    
+  
+   
+   #photo{
+   background-image: url("photo_of_me.jpg");
+   height: 282px;
+   width: 437px;
+   display: inline-block;
+   vertical-align: baseline;
+   margin-top: 24px;
+   margin-left: 24px;
+   border: 5px solid grey;
+  
+   }
+   #main_content{
+    height: 295px;
+    width: 449px;
+    background-color: rgb(207, 205, 205);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 24px;
+    margin-top: 24px;
+    }
+    
+   .subcontents{
+    height: 28px;
+    width: 449px;
+    background-image: linear-gradient(to bottom, #dbd9e5, #c4c2cd, #adacb6, #97969f, #818189);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+   #advertisement{
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+   }
+   /*#main_content{
+    height: 295px;
+    width: 449px;
+    background-color: rgb(207, 205, 205);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 24px;
+    margin-top: 24px;
+    }*/
+    .main1{
+        height: 405px;
+        width: 291.33px;
+        background-color: rgb(207, 205, 205);
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 23px;
+        margin-top: 24px;
+        }
+    .sub1{
+        height: 29px;
+        width: 291.33px;
+        background-image: linear-gradient(to bottom, #dbd9e5, #c4c2cd, #adacb6, #97969f, #818189);
+        padding-top: 12px;
+        padding-bottom: 12px;   
+        }
+
+    #photo2{
+        height: 160px;
+        width: 291.33px;
+        background-image: url("lamode.png");
+        
+    }
+    #photo3{
+        height: 160px;
+        width: 291.33px;
+        background-image: url("familycontacts.png");
+        
+    }
+    #photo4{
+        height: 160px;
+        width: 291.33px;
+        background-image: url("fiveEleven.png");
+        
+    }
+  
+    
+    
+    .main2{
+    height: 220px;
+    width: 291.33px;
+    background-color: rgb(207, 205, 205);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 23px;
+    margin-top: 0px;
+    }
+    .sub2{
+        height: 28px;
+        width: 291.33px;
+        background-image: linear-gradient(to bottom, #dbd9e5, #c4c2cd, #adacb6, #97969f, #818189);
+        padding-top: 12px;
+        padding-bottom: 12px;
+           
+    }
+    .tp1c{
+    height: 49px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 4px;
+    }
+
+    #tp1{
+        background-image: url(php.png);
+    }
+    #tp2{
+        background-image: url(codeigniter.png); 
+    }
+    #tp3{
+        background-image: url(jQuery.png);
+    }
+    #tp4{
+        background-image: url(ajax.png);
+    }
+    #tp5{
+        background-image: url(mysql.png);
+    }
+    #tp6{
+        background-image: url(HTML.png);
+    }
+    #tp7{
+        background-image: url(CSS.png);
+    }
+    #tp8{
+        background-image: url(bootstrap.png);
+    }
+
+
+
+    #t2p1{
+        background-image: url(JavaScript.png);
+    }
+    #t2p2{
+        background-image: url(mongodb.png); 
+    }
+    #t2p3{
+        background-image: url(expressjs.png);
+    }
+    #t2p4{
+        background-image: url(angular.png);
+    }
+    #t2p5{
+        background-image: url(nodejs.png);
+    }
+    #t2p6{
+        background-image: url(HTML.png);
+    }
+    #t2p7{
+        background-image: url(CSS.png);
+    }
+    #t2p8{
+        background-image: url(socket.png);
+    }
+
+
+
+    #t23p1{
+        background-image: url(python.png);
+    }
+    #t23p2{
+        background-image: url(django.png); 
+    }
+    #t23p3{
+        background-image: url(d3.png);
+    }
+    #t23p4{
+        background-image: url(angular.png);
+    }
+    #t23p5{
+        background-image: url(sqlite.png);
+    }
+    #t23p6{
+        background-image: url(HTML.png);
+    }
+    #t23p7{
+        background-image: url(CSS.png);
+    }
+    #t23p8{
+        background-image: url(JavaScript.png);
+    }
+    #t23p9{
+        background-image: url(materialize.png);
+    }
+    .buttons{
+        background-color: #407D61;
+        border-radius: 5px;
+        font-size: 20px;
+        color: white;
+        border: 1px solid black;
+        padding-top: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        display: block;
+        margin-left: 100px;
+        margin-top: 10px;}
+    
+        #button1{
+            background-color: #407D61;
+        border-radius: 5px;
+        font-size: 20px;
+        color: white;
+        border: 1px solid black;
+        padding-top: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        display: block;
+        margin-left: 70px;
+        margin-top: 10px;}
+    
+        
+        .socialm{
+            
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 5px;
+            margin-right: 10px;
+            color: black;
+            font-style: italic;
+            
+            
+            }
+            #cati{
+                background-image: url(github.png);
+                margin-left: 280px;
+                display: inline-block;
+            }
+            #ini{
+                background-image: url(linkedin.png); 
+                display: inline-block;
+            }
+            #tweeti{
+                background-image: url(twitter.png);
+                display: inline-block;
+            }
+            #lasti{
+                background-image: url(codepen.png);
+                display: inline-block;
+            }
+
+    span{
+      color: white;
+      font-size: 24px;
+      margin-left: 20px; 
+     }
+      
+    p{
+        font-size: 16.5px;
+        margin-left: 12px;
+    }
+    a{
+        margin-left: 12px;
+        color: black;
+    }
+    b{
+        font-size: 40px;
+        font-style: inherit;
+    }
+    small{
+        font-size: 25px;
+        margin-left: 350px;
+        font-style: inherit;
+        
+    }
+    #email{
+        margin-left: 350px;
+        color: black;
+        
+    }
+    /*.lastimages{
+        margin-left: 100px;
+        margin-top: 2px;
+    }*/
+    #cat{
+        margin-left: 240px;
+        margin-top: 2px;
+    }

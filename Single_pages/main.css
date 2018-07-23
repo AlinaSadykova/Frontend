@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body { 
+    min-width: 980px;
+    text-align: center; 
+    display: block;
+    background: #fcfdff;
+    position: relative;
+    padding:0;
+}
+#wrapper{
+    background: #fcfdff;
+    width: 980px; 
+    margin: 0 auto; 
+    height: 100%;
+    padding:0;
+}
+#background{
+    display: block;
+    height:100%;
+    width: 100%;
+    margin: 0;
+    background-image: image("yoga.jpg");
+    background-repeat: no-repeat;
+}
+
+#bottom{
+    width: 980px;
+    height: 200px;
+    background-color:#444949;
+    display: block;
+}
+
+#studioname{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;  
+}
+#logo{
+    display: inline-block;
+
+}
+#menu{
+    display: inline-block; 
+}
